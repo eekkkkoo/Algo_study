@@ -7,7 +7,6 @@ def go(x):
         return 'J'
     else:
         return 'B'
-i = 0
 dp = [1000000] * N
 dp[0] = 0
 for i in range(N):
